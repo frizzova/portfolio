@@ -1,6 +1,6 @@
 import { Mail, Phone, Code2, ArrowRight, Github, Briefcase, Linkedin, MapPin } from "lucide-react";
 import { useEffect } from "react";
-import { useLocation } from "react-router";
+import { useLocation, Link } from "react-router";
 
 export default function Home() {
   const { hash } = useLocation();
@@ -44,23 +44,19 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap items-center gap-6 pt-12 animate-in fade-in slide-in-from-bottom-16 duration-1000 delay-600">
-            <a
-              href="#/projects"
+            <Link
+              to="/projects"
               className="group flex items-center gap-3 px-10 py-5 bg-white text-black font-bold rounded-full hover:bg-[#F5F5F5] transition-all duration-300 shadow-xl"
             >
               Explore Projects
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a
-              href="#contact"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-              }}
+            </Link>
+            <Link
+              to="/#contact"
               className="px-10 py-5 border border-[#1A1A1A] text-white font-bold rounded-full hover:bg-white/5 transition-all duration-300"
             >
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import { Github, ExternalLink, ArrowRight, Code2 } from "lucide-react";
+import { Link } from "react-router";
 
 export default function Projects() {
   const projects = [
@@ -121,13 +122,13 @@ export default function Projects() {
           Have a vision? <br />
           <span className="text-[#8A8A8A]">Let's realize it.</span>
         </h2>
-        <a
-          href="/#contact"
+        <Link
+          to="/#contact"
           className="group flex items-center gap-4 px-12 py-6 bg-white text-black font-bold text-xl rounded-full hover:bg-[#F5F5F5] transition-all duration-300 shadow-xl"
         >
           Get In Touch
           <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-        </a>
+        </Link>
       </section>
     </div>
   );
