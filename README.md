@@ -9,4 +9,4 @@ A modern developer portfolio built using React, TypeScript, Vite, and Tailwind C
 - Contact section
 - GitHub Pages deployment
 
-Website: https://frizzova.github.io/portfolio/#/%23contact
+Website: https://frizzova.github.io/portfolio/
