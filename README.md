@@ -1,11 +1,16 @@
+# Personal Portfolio Website
 
-  # Personal Portfolio Website Design
+A modern developer portfolio built using React, TypeScript, Vite, and Tailwind CSS.
 
-  This is a code bundle for Personal Portfolio Website Design. The original project is available at https://www.figma.com/design/PS11oW5130eksxAeiumjmY/Personal-Portfolio-Website-Design.
+## Features
+- Responsive modern UI
+- React Router navigation
+- Projects showcase
+- Contact section
+- GitHub Pages deployment
 
-  ## Running the code
+## Run Locally
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+```bash
+npm install
+npm run dev
